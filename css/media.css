@@ -1,0 +1,157 @@
+@media screen and (max-width: 980px) {
+  /* common style */
+  .cmn-btn {
+    font-size: 0.875rem;
+  }
+  .header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1.5rem 0;
+  }
+
+  .header .logo img {
+    width: 100px;
+  }
+
+  .header .navi,
+  .header .info {
+    display: none;
+  }
+
+  .header .mobile-icon-wrapper {
+    display: block;
+  }
+
+  .new-mobile-menu {
+    display: block;
+    position: absolute;
+    top: 102%;
+    width: 100%;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+
+  .new-mobile-menu .navi {
+    display: block;
+  }
+
+  .new-mobile-menu .navi li {
+    text-align: center;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .new-mobile-menu .navi li:hover a {
+    text-decoration: underline;
+  }
+
+  .new-mobile-menu .info {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.6;
+  }
+
+  #main-section .landing-text-box h1 {
+    text-shadow: 1px 1px 1px #222; /*그림자효과:x, y, 흐림정도, 색상*/
+  }
+
+  #main-section .landing-text-box p {
+    width: 50%;
+  }
+
+  /* feature section style */
+  .features .feature {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main-section .landing-text-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  #main-section .landing-text-box p {
+    width: 100%;
+  }
+
+  /* meet section media style */
+  .meet-section .meet-wrapper {
+    flex-direction: column;
+    row-gap: 2.5rem;
+  }
+
+  .meet-section .meet-text-box {
+    width: 100%;
+  }
+
+  .meet-section .meet-text-box p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1.8rem 0 1rem;
+  }
+
+  .meet-section .meet-image-box {
+    width: 100%;
+    column-gap: 0.625rem;
+  }
+
+  .meet-section .meet-left-image {
+    row-gap: 0.625rem;
+  }
+
+  /* feature section style */
+
+  .features {
+    flex-wrap: wrap;
+  }
+
+  .features .feature {
+    width: 100%;
+  }
+
+  /* footer style */
+  footer .footer-upper,
+  footer .footer-info,
+  footer .footer-lower {
+    flex-direction: column;
+  }
+
+  footer .footer-info {
+    row-gap: 1.25rem;
+    align-items: center;
+  }
+
+  footer .footer-logo {
+    margin-bottom: 1.25rem;
+  }
+
+  footer .footer-nav a {
+    padding: 0.5rem;
+  }
+
+  footer .footer-lower {
+    row-gap: 1.25rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  #main-section .landing-text-box h1 {
+    font-size: 1.5rem;
+  }
+}
