@@ -3,6 +3,11 @@
   .cmn-btn {
     font-size: 0.875rem;
   }
+
+  .section {
+    padding: 4rem;
+  }
+
   .header {
     background: #fff;
     border-bottom: 1px solid #ddd;
@@ -74,6 +79,28 @@
   .features .feature {
     padding: 1rem;
   }
+
+  /* slider section style */
+  .slider-section .swiper-slide > div.slider-text h4 {
+    font-size: 1.25rem;
+  }
+
+  .slider-section .slider-nav {
+    width: 45px;
+    height: 45px;
+  }
+
+  .slider-section .swiper-button-next:after,
+  .slider-section .swiper-button-prev:after {
+    font-size: 1rem;
+  }
+
+  .slider-section .swiper-button-prev {
+    left: 2rem;
+  }
+  .slider-section .swiper-button-next {
+    right: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -121,6 +148,26 @@
     width: 100%;
   }
 
+  /* slider section style */
+  .slider-section .slider-nav {
+    display: none;
+  }
+
+  .slider-section .swiper-slide {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .slider-section .swiper-slide > div {
+    width: 80%;
+    margin: auto;
+  }
+
+  .slider-section .slider-text {
+    align-items: center;
+    text-align: center;
+  }
+
   /* footer style */
   footer .footer-upper,
   footer .footer-info,
@@ -153,5 +200,11 @@
   }
   #main-section .landing-text-box h1 {
     font-size: 1.5rem;
+  }
+
+  /* slider section style */
+
+  .slider-section .swiper-slide > div.slider-image {
+    width: 95%;
   }
 }
